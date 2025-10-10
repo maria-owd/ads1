@@ -29,4 +29,6 @@
 *.tar
 *.tar.gz
 *.tar.bz2
-2025-10-07/tempCodeRunnerFile.py
+**/tempCodeRunnerFile.py
+seminaries/**
+
