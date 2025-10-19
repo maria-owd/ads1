@@ -29,6 +29,8 @@
 *.tar
 *.tar.gz
 *.tar.bz2
+*.pdf
+
 **/tempCodeRunnerFile.py
 seminaries/**
 
