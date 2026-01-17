@@ -52,4 +52,20 @@ S = 6
 cnt, sol = min_coins_dp(S, coins)
 
 print(cnt)      # minimum number of coins
-print(sol)      # one optimal set of coins
+print(sol)      # one optimal set of coins 
+
+'''
+- correctness: 
+    best[s] stores the minimum number of coins needed to form sum s.
+    The recurrence considers all possible last coins c, and uses the optimal solution for s - c.
+    By optimal substructure, this produces an optimal solution for every s.
+    The solution is correctly reconstructed using the last[] array.
+
+- time complexity: Θ(S⋅n)
+- space complexity: Θ(S)
+
+- remarks:
+    - uses dynamic programming (bottom-up).
+    - guarantees an optimal solution where greedy may fail.
+    - assumes all coin values are positive integers.
+'''
