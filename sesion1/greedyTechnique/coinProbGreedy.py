@@ -26,10 +26,10 @@ coins_1 = [1, 2, 5, 10]
 s_1 = 18
 
 # Example - that doesn't work
-coins_2 = [1, 3, 4]
-s_2 = 6
+#coins_2 = [1, 3, 4]
+#s_2 = 6
     # greedy -> 4 + 1 + 1 (3 coins)
     # optimal -> 3 + 3 (2 coins)
 
 print(greedy_coin_change(s_1, coins_1))
-print(greedy_coin_change(s_2, coins_2))  
+#print(greedy_coin_change(s_2, coins_2))  
